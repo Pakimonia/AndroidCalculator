@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
         double rez = 0;
         if(action == "/")
         {
-            if(number1 != 0){
+            if(number2 != 0){
                 rez = number1 / number2;
                 txtV.setText(number1 + action + number2 + "=" +  rez);
             }
